@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 int	is_directory(char *filename)
 {

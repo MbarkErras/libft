@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 static int	help(char const *s)
 {

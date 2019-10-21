@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 void	ft_strsplit_cleanup(char **last, int *wordsize, char *noc)
 {

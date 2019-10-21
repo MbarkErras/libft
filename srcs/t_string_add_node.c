@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 #include <stdio.h>
 
 t_string	*t_string_create_node(t_string node_value)

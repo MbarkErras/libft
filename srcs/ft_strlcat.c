@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 size_t	ft_strlcat(char *dest, char *src, unsigned int size)
 {

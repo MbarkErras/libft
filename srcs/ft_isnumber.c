@@ -1,4 +1,4 @@
-#include "libft.h"
+#include "centropy.h"
 
 int	ft_isnumber(char *string)
 {

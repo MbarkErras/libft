@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 int	ft_strncmp(const char *s1s, const char *s2s, size_t n)
 {

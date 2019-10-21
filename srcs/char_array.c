@@ -6,11 +6,11 @@
 /*   By: merras <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/30 21:03:06 by merras            #+#    #+#             */
-/*   Updated: 2019/08/02 19:29:38 by merras           ###   ########.fr       */
+/*   Updated: 2019/10/21 07:03:26 by merras           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 int		array_length(char **array)
 {
@@ -32,6 +32,5 @@ void	print_array(char **array)
 	if (!array)
 		return ;
 	while (array[++i])
-		printf("[%s]\n", array[i]);
-		//ft_putendl(array[i]);
+		ft_putendl(array[i]);
 }

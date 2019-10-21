@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 static void		ft_strdel_dispatcher(char *s1, char *s2, char p)
 {

@@ -6,11 +6,11 @@
 #    By: merras <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/09 12:51:29 by merras            #+#    #+#              #
-#    Updated: 2019/10/21 02:29:52 by merras           ###   ########.fr        #
+#    Updated: 2019/10/21 07:02:57 by merras           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+NAME = centropy.a
 
 SRCS = ft_atoi.c \
 	ft_bzero.c \

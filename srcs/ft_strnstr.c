@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "centropy.h"
 
 char	*ft_strnstr(const char *haysta, const char *need, size_t len)
 {
