@@ -6,7 +6,7 @@
 /*   By: merras <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/08 17:43:39 by merras            #+#    #+#             */
-/*   Updated: 2019/10/21 06:56:04 by merras           ###   ########.fr       */
+/*   Updated: 2019/10/23 23:02:06 by merras           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -107,5 +107,5 @@ int				is_flag(char *flag, char *supported);
 int				isalnum_check(char *str);
 t_string		*t_string_copy(t_string *list);
 int				is_directory(char *filename);
-int			ft_isnumber(char *string);
+int				ft_isnumber(char *string);
 #endif
