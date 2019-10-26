@@ -6,11 +6,6 @@
 /*   By: merras <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/08 17:43:39 by merras            #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2019/10/25 04:51:36 by merras           ###   ########.fr       */
-=======
-/*   Updated: 2019/10/23 23:02:06 by merras           ###   ########.fr       */
->>>>>>> 1cb9f253ad4e5da3b706b8bb45f0b02b9bc895c8
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -119,10 +114,7 @@ int				isalnum_check(char *str);
 t_string		*t_string_copy(t_string *list);
 int				is_directory(char *filename);
 int				ft_isnumber(char *string);
-<<<<<<< HEAD
 
 # define POSITIVE_NEGATIVE 0
 int				ft_isanumber(char *string, int flags);
-=======
->>>>>>> 1cb9f253ad4e5da3b706b8bb45f0b02b9bc895c8
 #endif
