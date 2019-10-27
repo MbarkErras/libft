@@ -6,7 +6,6 @@
 /*   By: merras <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/08 17:43:39 by merras            #+#    #+#             */
-/*   Updated: 2019/10/23 23:02:06 by merras           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +17,13 @@
 # include <fcntl.h>
 # include <sys/stat.h>
 # include <unistd.h>
+
+# define F_GET(x, f) (x & (1 << f))
+# define F_BGET(x, f) (x & f)
+# define F_SET(x, f) (x |= (1 << f))
+# define F_BSET(x, f) (x |= f)
+# define F_UNSET(x, f) (x &= ~(1 << f))
+# define F_BUNSET(x, f) (x &= ~f)
 
 void			*ft_memset(void *b, int c, size_t len);
 void			ft_bzero(void *s, size_t n);
@@ -108,4 +114,7 @@ int				isalnum_check(char *str);
 t_string		*t_string_copy(t_string *list);
 int				is_directory(char *filename);
 int				ft_isnumber(char *string);
+
+# define POSITIVE_NEGATIVE 0
+int				ft_isanumber(char *string, int flags);
 #endif
