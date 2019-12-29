@@ -6,7 +6,7 @@
 /*   By: merras <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/29 19:19:14 by merras            #+#    #+#             */
-/*   Updated: 2019/12/29 19:19:59 by merras           ###   ########.fr       */
+/*   Updated: 2019/12/29 19:21:37 by merras           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -133,5 +133,5 @@ int				ft_isanumber(char *string, int flags);
 # define SIGN 0
 # define DOT 1
 # define FIRST_ITERATION 2
-double			ft_atoif(char *string);
+double			ft_atof(char *string);
 #endif
