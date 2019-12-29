@@ -6,7 +6,7 @@
 #    By: merras <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/09 12:51:29 by merras            #+#    #+#              #
-#    Updated: 2019/10/25 03:08:31 by merras           ###   ########.fr        #
+#    Updated: 2019/12/29 19:19:10 by merras           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -83,6 +83,7 @@ SRCS = ft_atoi.c \
 	is_dir.c \
 	ft_isnumber.c \
 	ft_isanumber.c \
+	ft_atof.c \
 	t_string_to_array.c
 
 OBJS = $(SRCS:.c=.o)
