@@ -6,7 +6,7 @@
 /*   By: merras <mbarekerras@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/29 19:18:28 by merras            #+#    #+#             */
-/*   Updated: 2019/12/30 17:56:08 by merras           ###   ########.fr       */
+/*   Updated: 2019/12/30 18:18:35 by merras           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,8 @@ double		ft_atof(char *string, int precision)
 	while ((string[i] >= '0' && string[i] <= '9') ||
 			(string[i] == '.' && !flags[DOT] && flags[FIRST_ITERATION]))
 	{
-		flags[DOT] = flags[DOT] ? 1 : string[i] == '.';
+		if (string[i] == '.' && (flags[DOT] = 1))
+			continue ;
 		flags[PRECISION] += flags[DOT];
 		fpoint = flags[DOT] ? fpoint + (string[i] - '0') / tens :
 			fpoint * 10 + (string[i] - '0');
