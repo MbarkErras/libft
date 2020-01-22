@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atof.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: merras <mbarekerras@gmail.com>             +#+  +:+       +#+        */
+/*   By: merras <merras@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/29 19:18:28 by merras            #+#    #+#             */
-/*   Updated: 2019/12/30 18:18:35 by merras           ###   ########.fr       */
+/*   Updated: 2020/01/22 16:27:24 by merras           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ double		ft_atof(char *string, int precision)
 	ft_bzero(flags, 4 * sizeof(int));
 	fpoint = 0;
 	i = -1;
-	tens = 1;
+	tens = 10;
 	while (string[++i] == ' ' || string[i] == '\t' || string[i] == '\n')
 		continue ;
 	if (string[i] == '+' || string[i] == '-')
@@ -33,7 +33,7 @@ double		ft_atof(char *string, int precision)
 	while ((string[i] >= '0' && string[i] <= '9') ||
 			(string[i] == '.' && !flags[DOT] && flags[FIRST_ITERATION]))
 	{
-		if (string[i] == '.' && (flags[DOT] = 1))
+		if (string[i] == '.' && (flags[DOT] = 1) && i++)
 			continue ;
 		flags[PRECISION] += flags[DOT];
 		fpoint = flags[DOT] ? fpoint + (string[i] - '0') / tens :
