@@ -3,21 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   centropy.h                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: merras <mbarekerras@gmail.com>             +#+  +:+       +#+        */
+/*   By: merras <merras@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/29 19:19:14 by merras            #+#    #+#             */
-/*   Updated: 2019/12/30 17:56:10 by merras           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: merras <marvin@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/10/08 17:43:39 by merras            #+#    #+#             */
+/*   Updated: 2020/01/25 15:24:41 by merras           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -128,11 +117,13 @@ int				is_directory(char *filename);
 int				ft_isnumber(char *string);
 
 # define POSITIVE_NEGATIVE 0
+
 int				ft_isanumber(char *string, int flags);
 
 # define SIGN 0
 # define DOT 1
 # define FIRST_ITERATION 2
 # define PRECISION 3
+
 double			ft_atof(char *string, int precision);
 #endif
